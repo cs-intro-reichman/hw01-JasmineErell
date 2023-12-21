@@ -4,6 +4,6 @@ class Triangle {
 	    int b = Integer.parseInt(args[1]);
 	    int c = Integer.parseInt(args[2]);
         boolean d = ((a+b>c) && (a+c>b) && (c+b>a));
-        System.out.println(a + "," + " " + b + "," + " " + c + ":" + d);
+        System.out.println(a + "," + " " + b + "," + " " + c + ":" + " " + d);
     }
 }
