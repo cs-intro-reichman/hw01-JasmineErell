@@ -1,5 +1,5 @@
 import java.util.Random;
-class Gen {
+class GenThree {
     public static void main(String[] args) {
         Random rand = new Random();
     	int a = Integer.parseInt(args[0]);
