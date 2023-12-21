@@ -3,7 +3,7 @@ class GenThree {
     public static void main(String[] args) {
         Random rand = new Random();
     	int a = Integer.parseInt(args[0]);
-	    int b = Integer.parseInt(args[1]);
+	int b = Integer.parseInt(args[1]);
         int max = Math.max(a,b);
         int min = Math.min(a,b);
         int ran1 = rand.nextInt(max - min + 1) + min;
