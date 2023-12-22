@@ -2,13 +2,11 @@ import java.util.Random;
 class GenThree {
     public static void main(String[] args) {
         Random rand = new Random();
-    	int a = Integer.parseInt(args[0]);
-	int b = Integer.parseInt(args[1]);
-        int max = Math.max(a,b);
-        int min = Math.min(a,b);
-        int ran1 = rand.nextInt(max - min + 1) + min;
-        int ran2 = rand.nextInt(max - min + 1) + min;
-        int ran3 = rand.nextInt(max - min + 1) + min;
+    	int min = Integer.parseInt(args[0]);
+	int max = Integer.parseInt(args[1]);
+        int ran1 = ((int)(Math.random()*max) + min);
+        int ran2 = ((int)(Math.random()*max) + min);
+        int ran3 = ((int)(Math.random()*max) + min);
         System.out.println(ran1);
         System.out.println(ran2);
         System.out.println(ran3);
