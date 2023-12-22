@@ -4,9 +4,9 @@ class GenThree {
         Random rand = new Random();
     	int min = Integer.parseInt(args[0]);
 	    int max = Integer.parseInt(args[1]);
-        int ran1 = ((int)( Math.random()*(max - min + 1) ) + min);
-        int ran2 = ((int)( Math.random()*(max - min + 1) ) + min);
-        int ran3 = ((int)( Math.random()*(max - min + 1) ) + min);
+        int ran1 = ((int)( Math.random()*(max - min) ) + min);
+        int ran2 = ((int)( Math.random()*(max - min) ) + min);
+        int ran3 = ((int)( Math.random()*(max - min) ) + min);
         System.out.println(ran1);
         System.out.println(ran2);
         System.out.println(ran3);
